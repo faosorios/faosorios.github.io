@@ -1,155 +1,72 @@
 <!DOCTYPE html>
+
 <html lang="en">
-
-<meta http-equiv="content-type" content="text/html;charset=utf-8" />
 <head>
-  <meta charset="utf-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <title>Felipe Osorio: Software</title>
-  <meta name="description" content="Felipe Osorio, lme, Mixed-effects models, sensitivity analysis, heavy-tailed, heavy package, influence diagnostics">
-  <meta name="viewport" content="width=device-width">
-  <link rel="stylesheet" href="css/screen.css">
-  <link rel="stylesheet" href="css/font-awesome.css">
+<meta charset="utf-8"/>
+<meta content="IE=edge" http-equiv="X-UA-Compatible"/>
+<title>Felipe Osorio · Software</title>
+<meta content="Felipe Osorio, lme, Mixed-effects models, sensitivity analysis, heavy-tailed, heavy package, influence diagnostics" name="description"/>
+<meta content="width=device-width, initial-scale=1" name="viewport"/>
+<link href="css/screen.css" rel="stylesheet"/>
+<link href="css/font-awesome.css" rel="stylesheet"/>
 </head>
-
-<body class="container">
-  <header>
-    <nav>
-      <label for="show-menu" class="show-menu">Show Menu</label>
-        <input type="checkbox" id="show-menu" >
-        <ul>
-          <li>
-            <a href="index.html">Home</a></li>
-          <li>
-            <a href="publications.html">Publications</a></li>
-          <li class="active">
-            <a href="software.html">Software</a></li>
-          <li>
-            <a href="students.html">Students</a></li>
-          <li>
-            <a href="teaching.html">Teaching</a></li>
-          <li>
-            <a href="files/cv_F.Osorio.pdf" target="_new">CV</a></li>
-          <li>
-            <a title="github" href="https://github.com/faosorios" target="_new">GitHub</a></li>
-        </ul>
-    </nav>
-  </header>
-
-  <div class="wrap">
-    <article>
-      <h2>R Package Development</h2>
-
-      <div class="row">
-        <div class="col cell1of2">
-          <p style="text-align: justify;">
+<body class="container page-software">
+<a class="skip-link" href="#main">Skip to content</a><header class="site-header"><a class="brand" href="index.html">Felipe <strong>Osorio</strong></a><nav aria-label="Main navigation"><ul><li><a href="index.html">Home</a></li><li><a href="publications.html">Publications</a></li><li><a aria-current="page" href="software.html">Software</a></li><li><a href="students.html">Students</a></li><li><a href="teaching.html">Teaching</a></li><li><a href="files/cv_F.Osorio.pdf">CV</a></li><li><a href="https://github.com/faosorios">GitHub ↗</a></li></ul></nav></header>
+<main class="wrap" id="main"><div class="page-heading"><h1>Software</h1><p class="publication-intro">R packages for statistical modeling, inference and scientific computing.</p><p class="citation-note">Citation counts are retained from the original page and are not updated automatically.</p></div>
+<div class="publications-layout software-layout"><div class="software-content" id="software-results"><h2 class="software-section-heading">R Package Development</h2><p class="software-intro">
             R is a free <a href="https://www.r-project.org/">software environment 
-            for statistical computing and graphics.<img src="img/external.png" /></a> 
+            for statistical computing and graphics.</a> 
             R is distributed through <a href="https://cran.r-project.org/"> CRAN (Comprehensive 
-            R Archive Network) <img src="img/external.png" /></a>. I contribute as developer/maintainer 
+            R Archive Network) </a>. I contribute as developer/maintainer 
             of the following R packages:
-          </p>
-        </div>
-        <div class="col cell1of2">
-          <ul class="toc">
-            <li><a href="#fastmatrix">fastmatrix</a></li>
-            <li><a href="#heavy">heavy</a></li>
-            <li><a href="#india">india</a></li>
-            <li><a href="#L1pack">L1pack</a></li>
-            <li><a href="#MVT">MVT</a></li>
-            <li><a href="#SpatialPack">SpatialPack</a></li>
-          </ul>
-        </div>
-      </div>
-
-      <h4 id="fastmatrix">fastmatrix: Fast computation of some matrices useful in statistics</h4>
-      <p style="text-align: justify;">
-        <img src="https://www.r-pkg.org/badges/version/fastmatrix" alt="">&nbsp;
-        <img src="https://cranlogs.r-pkg.org/badges/grand-total/fastmatrix" alt="">&nbsp;
-        <img src="https://img.shields.io/badge/citations-3-lightgrey" alt=""><br />
-        Yet another R package for matrices. It contains a small set of functions to fast
-        computation of some matrices and operations useful in statistics.<br />
-        <a href="https://github.com/faosorios/fastmatrix" target="_new">Visit the project page  <img src="img/external.png" /></a><br />&nbsp;
-      </p>
-
-      <h4 id="heavy">HEAVY: Robust estimation using heavy-tailed distributions</h4>
-      <p style="text-align: justify;">
-        <img src="https://www.r-pkg.org/badges/version/heavy" alt="">&nbsp;
-        <img src="https://cranlogs.r-pkg.org/badges/grand-total/heavy" alt="">&nbsp;
-        <img src="https://img.shields.io/badge/citations-26-lightgrey" alt=""><br />
-        Functions to perform robust estimation considering heavy-tailed distributions.
-        Currently, the package includes linear regression, linear mixed-effect models,
-        multivariate location and scatter estimation, multivariate regression, penalized
-        splines and random variate generation.<br />
-        <a href="https://github.com/faosorios/heavy" target="_new">Visit the project page  <img src="img/external.png" /></a><br />&nbsp;
-      </p>
-
-      <h4 id="india">india: Influence diagnostics in statistical models</h4>
-      <p style="text-align: justify;">
-        <img src="https://www.r-pkg.org/badges/version/india" alt="">&nbsp;
-        <img src="https://cranlogs.r-pkg.org/badges/grand-total/india" alt="">&nbsp;
-        <img src="https://img.shields.io/badge/citations-2-lightgrey" alt=""><br />
-        Set of routines for influence diagnostics by using case-deletion in ordinary least squares, 
-        ridge estimation and least absolute deviations (LAD) regression.<br />
-        <a href="https://github.com/faosorios/india" target="_new">Visit the project page  <img src="img/external.png" /></a><br />&nbsp;
-      </p>
-
-      <h4 id="L1pack">L1pack: Routines for L1 Estimation</h4>
-      <p style="text-align: justify;">
-        <img src="https://www.r-pkg.org/badges/version/L1pack" alt="">&nbsp;
-        <img src="https://cranlogs.r-pkg.org/badges/grand-total/L1pack" alt="">&nbsp;
-        <img src="https://img.shields.io/badge/citations-10-lightgrey" alt=""><br />
-        Provides routines to perform L1 estimation for linear regression, evaluation
-        of density, distribution function, quantile function and random number generation
-        for univariate and multivariate Laplace distribution.<br />
-        <a href="https://github.com/faosorios/L1pack" target="_new">Visit the project page <img src="img/external.png" /></a><br />&nbsp;
-      </p>
-
-      <h4 id="MVT">MVT: Estimation and testing for the multivariate t-distribution</h4>
-      <p style="text-align: justify;">
-        <img src="https://www.r-pkg.org/badges/version/MVT" alt="">&nbsp;
-        <img src="https://cranlogs.r-pkg.org/badges/grand-total/MVT" alt="">&nbsp;
-        <img src="https://img.shields.io/badge/citations-9-lightgrey" alt=""><br />
-        This package contains a set of routines to perform estimation and inference
-        under the multivariate <i>t</i>-distribution. These methods are a direct
-        generalization of the multivariate inference under the gaussian assumption.
-        In addition, these procedures provide robust methods useful against outliers.<br />
-        <a href="https://github.com/faosorios/MVT" target="_new">Visit the project page <img src="img/external.png" /></a><br />&nbsp;
-      </p>
-
-      <h4 id="SpatialPack">SpatialPack: Tools for assessment the association between two spatial processes</h4>
-      <p style="text-align: justify;">
-        <img src="https://www.r-pkg.org/badges/version/SpatialPack" alt="">&nbsp;
-        <img src="https://cranlogs.r-pkg.org/badges/grand-total/SpatialPack" alt="">&nbsp;
-        <img src="https://img.shields.io/badge/citations-108-lightgrey" alt=""><br />
-        This package provides tools to assess the association between two spatial
-        processes. Currently, four methodologies are implemented: A modified t-test
-        to perform hypothesis testing about the independence between the processes,
-        a suitable nonparametric correlation coefficient, the codispersion coefficient,
-        and an F test for assessing the multiple correlation between one spatial process
-        and several others. Functions for image processing and computing the spatial
-        association between images are also provided. SpatialPack gives methods to
-        complement methodologies that are available in geoR for one spatial process.<br />
-        <a href="https://github.com/faosorios/SpatialPack" target="_new">Visit the project page <img src="img/external.png" /></a><br />&nbsp;
-      </p>
-
-      <h2>Find me at GitHub</h2>
-
-      <p style="text-align: justify;">
-        Other codes/stuff are available at GitHub: &nbsp;<img src="img/github.png" /> <!--&nbsp;-->
-        <a href="https://github.com/faosorios" target="_new">github.com/faosorios <img src="img/external.png" /></a>
-      </p>
-
-      <p>&nbsp;</p>
-
-    </article>
-  </div>
-
-  <footer>
-    <div class="row">
-      <p align="center">Last updated:&nbsp; August 2026</p>
-    </div>
-  </footer>
-
+          </p><section aria-labelledby="fastmatrix-title" class="software-entry" id="fastmatrix">
+<!-- Edit package name, summary, description and links below. -->
+<h3 class="pub-title" id="fastmatrix-title">fastmatrix</h3>
+<p class="software-subtitle">Fast computation of some matrices useful in statistics</p>
+<p class="software-description">     Yet another R package for matrices. It contains a small set of functions to fast computation of some matrices and operations useful in statistics.    </p>
+<div class="pub-actions"><a class="pub-link" href="https://github.com/faosorios/fastmatrix" rel="noopener noreferrer" target="_blank"><i aria-hidden="true" class="fa fa-github"></i> GitHub</a><span class="pub-citations" title="Citation count retained from the original page; not updated automatically."><i aria-hidden="true" class="fa fa-quote-right"></i> 3 citations</span></div>
+<div class="software-stats"><span class="software-stat"><i aria-hidden="true" class="fa fa-tag"></i><img alt="CRAN version for fastmatrix" loading="lazy" src="https://www.r-pkg.org/badges/version/fastmatrix"/></span><span class="software-stat"><i aria-hidden="true" class="fa fa-download"></i><img alt="Total CRAN downloads for fastmatrix" loading="lazy" src="https://cranlogs.r-pkg.org/badges/grand-total/fastmatrix"/></span></div>
+</section><section aria-labelledby="heavy-title" class="software-entry" id="heavy">
+<!-- Edit package name, summary, description and links below. -->
+<h3 class="pub-title" id="heavy-title">HEAVY</h3>
+<p class="software-subtitle">Robust estimation using heavy-tailed distributions</p>
+<p class="software-description">     Functions to perform robust estimation considering heavy-tailed distributions. Currently, the package includes linear regression, linear mixed-effect models, multivariate location and scatter estimation, multivariate regression, penalized splines and random variate generation.    </p>
+<div class="pub-actions"><a class="pub-link" href="https://github.com/faosorios/heavy" rel="noopener noreferrer" target="_blank"><i aria-hidden="true" class="fa fa-github"></i> GitHub</a><span class="pub-citations" title="Citation count retained from the original page; not updated automatically."><i aria-hidden="true" class="fa fa-quote-right"></i> 26 citations</span></div>
+<div class="software-stats"><span class="software-stat"><i aria-hidden="true" class="fa fa-tag"></i><img alt="CRAN version for HEAVY" loading="lazy" src="https://www.r-pkg.org/badges/version/heavy"/></span><span class="software-stat"><i aria-hidden="true" class="fa fa-download"></i><img alt="Total CRAN downloads for HEAVY" loading="lazy" src="https://cranlogs.r-pkg.org/badges/grand-total/heavy"/></span></div>
+</section><section aria-labelledby="india-title" class="software-entry" id="india">
+<!-- Edit package name, summary, description and links below. -->
+<h3 class="pub-title" id="india-title">india</h3>
+<p class="software-subtitle">Influence diagnostics in statistical models</p>
+<p class="software-description">     Set of routines for influence diagnostics by using case-deletion in ordinary least squares, ridge estimation and least absolute deviations (LAD) regression.    </p>
+<div class="pub-actions"><a class="pub-link" href="https://github.com/faosorios/india" rel="noopener noreferrer" target="_blank"><i aria-hidden="true" class="fa fa-github"></i> GitHub</a><span class="pub-citations" title="Citation count retained from the original page; not updated automatically."><i aria-hidden="true" class="fa fa-quote-right"></i> 2 citations</span></div>
+<div class="software-stats"><span class="software-stat"><i aria-hidden="true" class="fa fa-tag"></i><img alt="CRAN version for india" loading="lazy" src="https://www.r-pkg.org/badges/version/india"/></span><span class="software-stat"><i aria-hidden="true" class="fa fa-download"></i><img alt="Total CRAN downloads for india" loading="lazy" src="https://cranlogs.r-pkg.org/badges/grand-total/india"/></span></div>
+</section><section aria-labelledby="L1pack-title" class="software-entry" id="L1pack">
+<!-- Edit package name, summary, description and links below. -->
+<h3 class="pub-title" id="L1pack-title">L1pack</h3>
+<p class="software-subtitle">Routines for L1 Estimation</p>
+<p class="software-description">     Provides routines to perform L1 estimation for linear regression, evaluation of density, distribution function, quantile function and random number generation for univariate and multivariate Laplace distribution.    </p>
+<div class="pub-actions"><a class="pub-link" href="https://github.com/faosorios/L1pack" rel="noopener noreferrer" target="_blank"><i aria-hidden="true" class="fa fa-github"></i> GitHub</a><span class="pub-citations" title="Citation count retained from the original page; not updated automatically."><i aria-hidden="true" class="fa fa-quote-right"></i> 10 citations</span></div>
+<div class="software-stats"><span class="software-stat"><i aria-hidden="true" class="fa fa-tag"></i><img alt="CRAN version for L1pack" loading="lazy" src="https://www.r-pkg.org/badges/version/L1pack"/></span><span class="software-stat"><i aria-hidden="true" class="fa fa-download"></i><img alt="Total CRAN downloads for L1pack" loading="lazy" src="https://cranlogs.r-pkg.org/badges/grand-total/L1pack"/></span></div>
+</section><section aria-labelledby="MVT-title" class="software-entry" id="MVT">
+<!-- Edit package name, summary, description and links below. -->
+<h3 class="pub-title" id="MVT-title">MVT</h3>
+<p class="software-subtitle">Estimation and testing for the multivariate t-distribution</p>
+<p class="software-description">     This package contains a set of routines to perform estimation and inference under the multivariate <i>t</i>-distribution. These methods are a direct generalization of the multivariate inference under the gaussian assumption. In addition, these procedures provide robust methods useful against outliers.    </p>
+<div class="pub-actions"><a class="pub-link" href="https://github.com/faosorios/MVT" rel="noopener noreferrer" target="_blank"><i aria-hidden="true" class="fa fa-github"></i> GitHub</a><span class="pub-citations" title="Citation count retained from the original page; not updated automatically."><i aria-hidden="true" class="fa fa-quote-right"></i> 9 citations</span></div>
+<div class="software-stats"><span class="software-stat"><i aria-hidden="true" class="fa fa-tag"></i><img alt="CRAN version for MVT" loading="lazy" src="https://www.r-pkg.org/badges/version/MVT"/></span><span class="software-stat"><i aria-hidden="true" class="fa fa-download"></i><img alt="Total CRAN downloads for MVT" loading="lazy" src="https://cranlogs.r-pkg.org/badges/grand-total/MVT"/></span></div>
+</section><section aria-labelledby="SpatialPack-title" class="software-entry" id="SpatialPack">
+<!-- Edit package name, summary, description and links below. -->
+<h3 class="pub-title" id="SpatialPack-title">SpatialPack</h3>
+<p class="software-subtitle">Tools for assessment the association between two spatial processes</p>
+<p class="software-description">     This package provides tools to assess the association between two spatial processes. Currently, four methodologies are implemented: A modified t-test to perform hypothesis testing about the independence between the processes, a suitable nonparametric correlation coefficient, the codispersion coefficient, and an F test for assessing the multiple correlation between one spatial process and several others. Functions for image processing and computing the spatial association between images are also provided. SpatialPack gives methods to complement methodologies that are available in geoR for one spatial process.    </p>
+<div class="pub-actions"><a class="pub-link" href="https://github.com/faosorios/SpatialPack" rel="noopener noreferrer" target="_blank"><i aria-hidden="true" class="fa fa-github"></i> GitHub</a><span class="pub-citations" title="Citation count retained from the original page; not updated automatically."><i aria-hidden="true" class="fa fa-quote-right"></i> 108 citations</span></div>
+<div class="software-stats"><span class="software-stat"><i aria-hidden="true" class="fa fa-tag"></i><img alt="CRAN version for SpatialPack" loading="lazy" src="https://www.r-pkg.org/badges/version/SpatialPack"/></span><span class="software-stat"><i aria-hidden="true" class="fa fa-download"></i><img alt="Total CRAN downloads for SpatialPack" loading="lazy" src="https://cranlogs.r-pkg.org/badges/grand-total/SpatialPack"/></span></div>
+</section><section class="software-more"><h2>Find me at GitHub</h2><p>Other codes/stuff are available at GitHub: <a href="https://github.com/faosorios" rel="noopener noreferrer" target="_blank">github.com/faosorios</a></p></section></div><aside class="publication-sidebar"><nav aria-label="Software packages" class="section-nav"><p class="sidebar-label">Packages</p><ul><li><a href="#fastmatrix">fastmatrix</a></li><li><a href="#heavy">HEAVY</a></li><li><a href="#india">india</a></li><li><a href="#L1pack">L1pack</a></li><li><a href="#MVT">MVT</a></li><li><a href="#SpatialPack">SpatialPack</a></li></ul></nav></aside></div>
+</main>
+<footer><div><a class="footer-name" href="index.html">Felipe Osorio</a></div>
+<div class="row">
+<p align="center">Last updated:  August 2026</p>
+</div>
+</footer>
 </body>
 </html>
